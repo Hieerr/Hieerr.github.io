@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #c7c7c7;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #252537;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.search {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #35354a;
+    border: none;
+    color: #c7c7c7;
+}
+
+.file-list {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.file, .folder {
+    padding: 10px;
+    background-color: #35354a;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.file:hover, .folder:hover {
+    background-color: #454563;
+}
+
+.new-tab-btn {
+    background-color: #454563;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.new-tab-btn:hover {
+    background-color: #555573;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    background-color: #252537;
+    padding: 5px;
+}
+
+.tab {
+    padding: 10px;
+    background-color: #35354a;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #454563;
+}
+
+.editor {
+    flex-grow: 1;
+    background-color: #1e1e2e;
+    padding: 10px;
+}
+
+.code-editor {
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e2e;
+    border: none;
+    color: #c7c7c7;
+    font-family: monospace;
+    font-size: 14px;
+}
