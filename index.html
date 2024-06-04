@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom IDE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" placeholder="Search for Items..." class="search">
+            <ul class="file-list">
+                <li class="file">infiniteyield.lua</li>
+                <li class="file">infiniteyield.lua</li>
+                <li class="file">infiniteyield.lua</li>
+                <li class="file">infiniteyield.lua</li>
+                <li class="folder">Folder(1)</li>
+            </ul>
+            <button class="new-tab-btn">+</button>
+        </div>
+        <div class="main">
+            <div class="tabs">
+                <div class="tab active">infiniteyield.lua</div>
+                <div class="tab">infiniteyield.lua</div>
+                <div class="tab">infiniteyield.lua</div>
+                <div class="tab">+</div>
+            </div>
+            <div class="editor">
+                <textarea class="code-editor">
+-- i love skibidi fanum tax rizz, and i looksm
+local skibidiToilet = instance.new("Frame")
+local fanumtax = instance.new("TextLabel")
+skibidiToilet.Parent = ScreenGui
+fanumtax.Parent = skibidiToilet
+fanumtax.Text = "I love big fat skibidi toilets"
+fanumtax.TextSize = 19
+
+task.wait(30)
+fanumtax:Destroy()
+skibidiToilet:Destroy()
+                </textarea>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
